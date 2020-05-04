@@ -121,8 +121,13 @@
               "devServerTarget": "training-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "training-app"
 }
